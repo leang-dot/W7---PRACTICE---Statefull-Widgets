@@ -9,7 +9,7 @@ List<String> images = [
 ];
 
 void main() => runApp(MaterialApp(
-      debugShowCheckedModeBanner: false, // Why this line ? Can you explain it ? // We set it to false to hide the debug banner on the top right corner of the screen.
+      debugShowCheckedModeBanner: false, 
       home: ImageGallery(),
     ));
 
